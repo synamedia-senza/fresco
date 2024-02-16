@@ -1,0 +1,42 @@
+body {
+  width: 1920px;
+  height: 1080px;
+	margin: 0px;
+	background-color: black;
+  overflow: hidden;
+}
+
+#main {
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+	background-color: black;
+  text-align: center;
+}
+
+.video {
+  position: absolute; 
+}
+
+.overlay {
+  background-color: rgba(200,200,200,0.5);
+  border-radius: 20px;
+  margin:50px;
+  position: absolute;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #333;
+  text-align: center;
+}
+
+#toast {
+  padding-top: 50px;
+  height: 250px;
+  width: 300px;  
+  top: 500px;
+  left: 810px;
+	font: 120pt Helvetica; 
+	font-weight: bold;
+}
+

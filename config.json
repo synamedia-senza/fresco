@@ -1,0 +1,9 @@
+{
+  "videos": [
+    {"src": "video/gaia.mp4", "duration": 18},
+    {"src": "video/namur.mp4", "duration": 30}
+  ],
+  "index": 0,
+  "time": 0,
+  "playing": true
+}
