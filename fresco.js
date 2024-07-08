@@ -2,7 +2,7 @@
 // Andrew Zamler-Carhart
 
 // To run the server:
-// HOSTNAME=localhost PORT=1234 node fresco.js
+// HOSTNAME=localhost PORT=8080 node fresco.js
 // or just:
 // node fresco.js
 
@@ -12,7 +12,7 @@ let express = require("express"),
 	errorHandler = require('errorhandler'),
 	state = require('./config.json'),
 	hostname = process.env.HOSTNAME || 'localhost',
-	port = parseInt(process.env.PORT, 10) || 1234,
+	port = parseInt(process.env.PORT, 10) || 8080,
 	publicDir = process.argv[2] || __dirname + '/public',
 	io = require('socket.io').listen(app.listen(port)),
 globalSocket = null;

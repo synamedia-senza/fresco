@@ -1,7 +1,6 @@
 {
   "videos": [
-    {"src": "video/gaia.mp4", "duration": 18},
-    {"src": "video/namur.mp4", "duration": 30}
+    {"src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", "duration": 596}
   ],
   "index": 0,
   "time": 0,
